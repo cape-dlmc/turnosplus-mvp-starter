@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurnosPlus</title>
+    <link rel="stylesheet" href="css/css.css">
+<script src="js/APP.js" defer></script>
+</head>
+<body>
+    <h1>Bienvenidos a TurnosPlus</h1>
+    <main>
+    <form id="fromCita">
+        <label>Paciente: <input id="paciente" required/> </label>
+        <label>Profesional: <input id="profesional" required/> </label>
+        <label>Fecha: <input id="fecha" required type="date"/> </label>
+        <label>Hora: <input id="hora" required type="time"/> </label>
+
+        <button type="submit">Guardar Cita</button>
+
+        <ul id="listaCitas"></ul>
+    </form>
+    </main>
+</body>
+</html>
